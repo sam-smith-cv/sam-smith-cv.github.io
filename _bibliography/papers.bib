@@ -1,84 +1,39 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{namedcasts,
+title = "Do names echo semantics? A large-scale study of identifiers used in C++{\textquoteright}s named casts",
+abstract = "Developers relax restrictions on a type to reuse methods with other types. While type casts are prevalent, in weakly typed languages such as C++, they are also extremely permissive. Assignments where a source expression is cast into a new type and assigned to a target variable of the new type, can lead to software bugs if performed without care. In this paper, we propose an information-theoretic approach to identify poor implementations of explicit cast operations. Our approach measures accord between the source expression and the target variable using conditional entropy. We collect casts from 34 components of the Chromium project, which collectively account for 27MLOC and random-uniformly sample this dataset to create a manually labelled dataset of 271 casts. Information-theoretic vetting of these 271 casts achieves a peak precision of 81% and a recall of 90%. We additionally present the findings of an in-depth investigation of notable explicit casts, two of which were fixed in recent releases of the Chromium project.",
+keywords = "C++ Type Conversions, Languages, Program Analysis",
+author = "Petrescu, {Constantin Cezar} and Sam Smith and Rafail Giavrimis and Santanu Dash",
+year = "2023",
+month = aug,
+doi = "10.1016/j.jss.2023.111693",
+language = "English",
+volume = "202",
+journal = "Journal of Systems and Software",
+issn = "0164-1212",
+publisher = "Elsevier",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@preprint{naturalcallgraphs,
+title = "Checking Test Suite Efficacy Through Dual-Channel Techniques",
+abstract = "Dynamic Call Graphs trace program execution and are used to model function coverage. They help identify which function calls are missed but do not offer insights on whether those calls are important to cover. We propose a weighted representation of control flow called Natural Call Graphs (NCGs), which can be used to identify important function calls. These weights represent the relevance of the callee to the caller and are computed using information-theoretic reasoning on tokens in the functions. We create a dataset of 1,234 manually verified function calls, containing a mix of relevant and irrelevant functions, from ten Python open-source projects. On this dataset, our approach achieves a peak precision of 78% and a recall of 94% in identifying relevant functions missed by tests.",
+keywords = "Dual-channel research, Software testing, Program analysis",
+author = "Petrescu, {Constantin Cezar} and Sam Smith and Alexis Butler and Santanu Dash",
+year = "2023",
+month = "jul",
+url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4515283},
+language = "English",
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@preprint{devperceptions,
+title = "Perceptions of Secure Software Development: A Qualitative Study of Software Engineers in the UK",
+abstract = "There are differences between developing software in the USA and the UK, ranging from variances in coding standards and industry practices to disparities in work culture and market dynamics. This study aims to provide an initial qualitative account of the experiences of software developers in the UK while developing secure code. We address two key research areas: (1) the degree of concern among software developers regarding security, (2) the reasons behind developers{\textquoteright} decisions to adopt, or disregard, certain dependency management and automated tooling techniques. Through interviews with nine developers, a deeper understanding of the human factors influencing secure code development in the UK was obtained. Preliminary results show that UK-based developers are influenced by: organisational, individual, and social factors, more work is needed to conclude how these are influenced by a UK national context.",
+keywords = "Software supply chain security, secure code development, qualitative study, interview study, developer-centric security",
+author = "Brough, Mikaela and Sam Smith and Cameron Jones and Santanu Dash",
+year = "2023",
+month = "may",
+available = "Paper available upon request",
+language = "English",
 }
