@@ -183,6 +183,10 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: smaller;
+    text-align: center;
+    border-left-style: solid;
+    border-right-style: solid;
 
     p {
       display: inline-block;
